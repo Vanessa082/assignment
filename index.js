@@ -61,7 +61,7 @@ console.log(resul)
 
 //qst8
 
-function sumOfFunction(sum) {
+function sumOfFunction (sum) {
   let b = 0
   for (let i = 0; i < sum.length; i++) {
     b += sum[i]
@@ -70,10 +70,10 @@ function sumOfFunction(sum) {
 }
 
 let number = [1, 2, 3, 4, 5]
-let resu = sumOfFunction(number)
+let resu = sumOfFunction (number)
 console.log(resu)
 
-function averageOfFunction(average) {
+function averageOfFunction (average) {
   let c = 0
   for (let i = 0; i < average.length; i++) {
     c += average[i]
@@ -87,7 +87,7 @@ console.log(res)
 
 //qst9
 
-function unEqual(value1, value2) {
+function unEqual (value1, value2) {
   if (value1 === value2 || value1 === value2) {
     return true
   } else {
