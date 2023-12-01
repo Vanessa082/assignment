@@ -12,8 +12,8 @@ console.log(isEven(9))
 // qst2
 
 function countB (str) {
-  const count = 0;
-  for (const i = 0; i < str.length; i++) {
+  let count = 0;
+  for (let i = 0; i < str.length; i++) {
     if (str[i] >= 'A' && str[i] <= 'Z') {
       count++
     }
@@ -28,8 +28,8 @@ console.log(countB('JACK'))
 // qst3
 
 function countChar (num, carl) {
-  const count = 0;
-  for (const i = 0; i < num.length; i++) {
+  let count = 0;
+  for (let i = 0; i < num.length; i++) {
     if (num[i] == carl) {
       count++
     }
@@ -42,7 +42,7 @@ console.log(countChar('nuM', 'M'))
 
 function range (start, end) {
   const a = []
-  for (const i = start; i <= end; i++) {
+  for (let i = start; i <= end; i++) {
     a.push(i)
   }
   return a
@@ -52,7 +52,7 @@ console.log(result)
 
 function stepRange (start, end, two) {
   const a = []
-  for (const i = start; i < end; i += two) {
+  for (let i = start; i < end; i += two) {
 
     a.push(i)
   }
@@ -64,8 +64,8 @@ console.log(resul)
 // qst8
 
 function sumOfFunction (sum) {
-  const b = 0
-  for (const i = 0; i < sum.length; i++) {
+  let b = 0
+  for (let i = 0; i < sum.length; i++) {
     b += sum[i]
   }
   return b
@@ -76,8 +76,8 @@ const resu = sumOfFunction (number)
 console.log(resu)
 
 function averageOfFunction (average) {
-  const c = 0
-  for (const i = 0; i < average.length; i++) {
+  let c = 0
+  for (let i = 0; i < average.length; i++) {
     c += average[i]
   }
   const nm = c / average.length
@@ -100,8 +100,8 @@ function unEqual (value1, value2) {
 console.log(unEqual('9', 9))
 console.log(unEqual(9, 9))
 
-const key = new Object()
-const key2 = new Object()
+const key = {}
+const key2 = {}
 key.name = 'van'
 key2.name = 'van'
 console.log(unEqual(key, key2))
