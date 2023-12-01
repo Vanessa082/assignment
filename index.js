@@ -1,4 +1,5 @@
-//qst1
+// qst1
+
 function isEven(num) {
   if (num % 2 === 0) {
     return 'even'
@@ -8,10 +9,11 @@ function isEven(num) {
 console.log(isEven(4))
 console.log(isEven(9))
 
-//qst2
-function countB(str) {
-  let count = 0;
-  for (let i = 0; i < str.length; i++) {
+// qst2
+
+function countB (str) {
+  const count = 0;
+  for (const i = 0; i < str.length; i++) {
     if (str[i] >= 'A' && str[i] <= 'Z') {
       count++
     }
@@ -23,11 +25,11 @@ console.log(countB('Hello w'))
 console.log(countB('Hello world Rabase'))
 console.log(countB('JACK'))
 
-//qst3
+// qst3
 
-function countChar(num, carl) {
-  let count = 0;
-  for (let i = 0; i < num.length; i++) {
+function countChar (num, carl) {
+  const count = 0;
+  for (const i = 0; i < num.length; i++) {
     if (num[i] == carl) {
       count++
     }
@@ -36,11 +38,11 @@ function countChar(num, carl) {
 }
 console.log(countChar('nuM', 'M'))
 
-//qst4
+// qst4
 
-function range(start, end) {
+function range (start, end) {
   const a = []
-  for (let i = start; i <= end; i++) {
+  for (const i = start; i <= end; i++) {
     a.push(i)
   }
   return a
@@ -48,44 +50,44 @@ function range(start, end) {
 const result = range(1, 5)
 console.log(result)
 
-function stepRange(start, end, two) {
+function stepRange (start, end, two) {
   const a = []
-  for (let i = start; i < end; i += two) {
+  for (const i = start; i < end; i += two) {
 
     a.push(i)
   }
   return a
 }
-let resul = stepRange(1, 10, 2)
+const resul = stepRange(1, 10, 2)
 console.log(resul)
 
-//qst8
+// qst8
 
 function sumOfFunction (sum) {
-  let b = 0
-  for (let i = 0; i < sum.length; i++) {
+  const b = 0
+  for (const i = 0; i < sum.length; i++) {
     b += sum[i]
   }
   return b
 }
 
-let number = [1, 2, 3, 4, 5]
-let resu = sumOfFunction (number)
+const number = [1, 2, 3, 4, 5]
+const resu = sumOfFunction (number)
 console.log(resu)
 
 function averageOfFunction (average) {
-  let c = 0
-  for (let i = 0; i < average.length; i++) {
+  const c = 0
+  for (const i = 0; i < average.length; i++) {
     c += average[i]
   }
-  let nm = c / average.length
+  const nm = c / average.length
   return nm
 }
-let numb = [1, 2, 3, 4, 5]
-let res = averageOfFunction(numb)
+const numb = [1, 2, 3, 4, 5]
+const res = averageOfFunction(numb)
 console.log(res)
 
-//qst9
+// qst9
 
 function unEqual (value1, value2) {
   if (value1 === value2 || value1 === value2) {
