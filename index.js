@@ -12,13 +12,13 @@ console.log(isEven(9))
 // qst2
 
 function countB (str) {
-  let count = 0;
+  let count = 0
   for (let i = 0; i < str.length; i++) {
     if (str[i] >= 'A' && str[i] <= 'Z') {
       count++
     }
   }
-  return count;
+  return count
 }
 
 console.log(countB('Hello w'))
@@ -27,16 +27,16 @@ console.log(countB('JACK'))
 
 // qst3
 
-function countChar (num, carl) {
-  let count = 0;
-  for (let i = 0; i < num.length; i++) {
-    if (num[i] == carl) {
-      count++
-    }
-  }
-  return count;
-}
-console.log(countChar('nuM', 'M'))
+// function countChar (num, carl) {
+//   let count = 0
+//   for (let i = 0; i < num.length; i++) {
+//     if (num[i] == carl) {
+//       count++
+//     }
+//   }
+//   return count
+// }
+// console.log(countChar('nuM', 'M'))
 
 // qst4
 
@@ -53,7 +53,6 @@ console.log(result)
 function stepRange (start, end, two) {
   const a = []
   for (let i = start; i < end; i += two) {
-
     a.push(i)
   }
   return a
@@ -72,7 +71,7 @@ function sumOfFunction (sum) {
 }
 
 const number = [1, 2, 3, 4, 5]
-const resu = sumOfFunction (number)
+const resu = sumOfFunction(number)
 console.log(resu)
 
 function averageOfFunction (average) {
@@ -89,19 +88,19 @@ console.log(res)
 
 // qst9
 
-function unEqual (value1, value2) {
-  if (value1 === value2 || value1 === value2) {
-    return true
-  } else {
-    return false
-  }
-}
+// function unEqual (value1, value2) {
+//   if (value1 === value2 || value1 == value2) {
+//     return true
+//   } else {
+//     return false
+//   }
+// }
 
-console.log(unEqual('9', 9))
-console.log(unEqual(9, 9))
+// console.log(unEqual('9', 9))
+// console.log(unEqual(9, 9))
 
-const key = {}
-const key2 = {}
-key.name = 'van'
-key2.name = 'van'
-console.log(unEqual(key, key2))
+// const key = {}
+// const key2 = {}
+// key.name = 'van'
+// key2.name = 'van'
+// console.log(unEqual(key, key2))
